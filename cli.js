@@ -59,7 +59,7 @@ const data = await response.json()
 
 //add info for a specific day
 const days = args.d
-if args.j {
+if (args.j){
 	console.log(data)
 	process.exit(0)
 }
